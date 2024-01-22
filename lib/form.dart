@@ -58,7 +58,7 @@ class _FormExampleState extends State<FormExample> {
                     TextFormField(
                       controller: _emailController,
                       decoration: InputDecoration(
-                        hintText: "Nhap ten cua ban",
+                        hintText: "email",
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
